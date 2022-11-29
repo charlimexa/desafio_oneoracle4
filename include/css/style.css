@@ -1,0 +1,69 @@
+/* barra superior */
+
+/* generales */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.5em;
+    line-height: 1.6;
+    font-weight: 400;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000000;
+}
+
+.cont{
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 2em 0 2em;
+    box-sizing: border-box;
+}
+/* barra */
+.barra{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.barra__logo{
+    margin: 0.63em 0;
+}
+
+.barra__busqueda{
+    margin: 0.63em 0;
+}
+
+.barra__botbusqueda{
+    font-size: 0.9em;
+    padding: 0.6em 2em;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    border-radius: 5em;
+    width: 30em;
+}
+
+.barra_login{
+    margin: 0.63em 0;
+}
+
+.barra__botlogin{
+    font-size: 0.9em;
+    padding: 0.6em 2em;
+    color: #2A7AE4;
+    font-weight: bold;
+    background-color: #ffffff;
+    border: 1px solid #2A7AE4;
+}
+
+
+
+
+
+/* adaptables */
+
+/* pc */
+@media (min-width: 1200px) {
+    .cont{width: 75em;}
+}
