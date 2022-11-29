@@ -36,6 +36,8 @@ body{
 }
 
 .barra__botbusqueda{
+    background: url(../imagenes/icon_bum.svg) no-repeat;
+    background-position: 96% 50%;
     font-size: 0.9em;
     padding: 0.6em 2em;
     color: #2A7AE4;
